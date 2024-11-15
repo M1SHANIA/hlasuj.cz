@@ -1,0 +1,26 @@
+.container {
+    min-height: 100vh;
+    width: 90%;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+@media (min-width: 800px) {
+    .features {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        margin: 0 auto;
+        max-width: 1300px;
+        padding-bottom: 40px;
+    }
+}

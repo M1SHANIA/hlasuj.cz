@@ -1,0 +1,37 @@
+.container {
+    background-color: #292929;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    grid-area: RestrictionSelect;
+}
+
+.restrictionTitle {
+    margin-bottom: 10px;
+    font-size: 1em;
+    font-weight: 500;
+    color: #eaeaea;
+    display: flex;
+    justify-content: space-between;
+}
+
+.select {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 1em;
+    font-family: Roboto, sans-serif;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #333;
+    color: #eaeaea;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.select:hover,
+.select:focus {
+    border-color: #777;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
