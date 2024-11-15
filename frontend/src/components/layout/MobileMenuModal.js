@@ -15,7 +15,7 @@ const MobileMenuModal = ({onClose, userToken, username, onLogout}) => {
                     Home
                 </Link>
                 <Link to="/create" onClick={onClose}>
-                    Create
+                    Create Poll
                 </Link>
                 {!userToken && (
                     <Link to="/login" onClick={onClose}>

@@ -35,7 +35,7 @@ const Navbar = () => {
             <h1 className={styles.title}>
                 <Link to="/">
                     <FaSquarePollHorizontal className={styles.icon} />
-                    EzPolls
+                    ČinazesPolls
                 </Link>
             </h1>
 
@@ -45,7 +45,7 @@ const Navbar = () => {
                 </button>
                 <div className={styles.menu}>
                     <Link to="/">Home</Link>
-                    <Link to="/create">Create</Link>
+                    <Link to="/create">Create Poll</Link>
                     {!userToken && <Link to="/login">Login</Link>}
                     {!userToken && <Link to="/register">Register</Link>}
                     {userToken && <Link to={`/users/${username}`}>Profile</Link>}

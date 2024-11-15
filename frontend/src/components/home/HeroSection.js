@@ -5,14 +5,8 @@ const HeroSection = () => {
     return (
         <section
             className={styles.hero}
-            style={{
-                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(${heroImage})`,
-            }}
         >
-            <h2>
-                <span>Welcome to EzPolls</span>
-            </h2>
-            <p>Create your poll in seconds</p>
+            <h2>Welcome to ČinazesPolls</h2>
         </section>
     )
 }
